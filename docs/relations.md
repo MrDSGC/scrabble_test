@@ -12,8 +12,6 @@ column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
 
-
-
 ## Definition
 column name     | data type | details
 ----------------|-----------|-----------------------
