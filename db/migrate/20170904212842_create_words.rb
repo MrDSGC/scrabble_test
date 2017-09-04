@@ -5,5 +5,7 @@ class CreateWords < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+
+    add_index :words, :definition_id
   end
 end

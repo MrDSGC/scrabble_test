@@ -2,7 +2,7 @@ class Definition < ApplicationRecord
 
   validates :definition, presence: true
 
-  has_many :words,
+  belongs_to :word,
   foreign_key: :word_id,
-  class_name: "Define"
+  class_name: "Word"
 end

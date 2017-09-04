@@ -9,6 +9,6 @@ class Word < ApplicationRecord
 
   has_many :definitions,
   foreign_key: :word_id,
-  class_name: "Define"
+  class_name: "Definition"
 
 end
