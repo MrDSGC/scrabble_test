@@ -11,6 +11,7 @@ name            | string    | not null, indexed, unique
 column name     | data type | details
 ----------------|-----------|-----------------------
 id              | integer   | not null, primary key
+word_id         | integer   | not null, foreign key, indexed
 
 ## Definition
 column name     | data type | details

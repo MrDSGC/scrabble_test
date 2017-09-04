@@ -8,6 +8,7 @@ class Word < ApplicationRecord
   class_name: "WordStore"
 
   has_many :definitions,
-  class_name: "Definition"
-  
+  foreign_key: :word_id,
+  class_name: "Define"
+
 end
