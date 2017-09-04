@@ -1,0 +1,2 @@
+class Define < ApplicationRecord
+end
