@@ -7,5 +7,6 @@ Rails.application.routes.draw do
     resources :word, only: [:index, :create, :destroy, :update, :show]
 
     resources :definition, only: [:create, :destroy]
+  end
 
 end
