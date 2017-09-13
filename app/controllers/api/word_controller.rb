@@ -5,6 +5,7 @@ class Api::WordController < ApplicationController
 
     if @words
       render 'api/words/index'
+    end
   end
 
   def create

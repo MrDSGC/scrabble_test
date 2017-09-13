@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
     resources :word, only: [:index, :create, :destroy, :show]
 
-    resources :definition, only: [:create, :destroy]
+    resources :definition, only: [:create]
   end
 
 end

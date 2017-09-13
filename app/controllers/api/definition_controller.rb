@@ -1,9 +1,10 @@
 class Api::DefinitionController < ApplicationController
 
-  def destroy
+  def create
   end
 
-  def create
+  def definition_params
+    params.require(:definition).permit(:definition)
   end
 
 end
