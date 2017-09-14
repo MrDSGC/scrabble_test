@@ -1,0 +1,2 @@
+module Api::WordStoreHelper
+end
