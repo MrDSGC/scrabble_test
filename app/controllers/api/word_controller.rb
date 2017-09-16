@@ -22,7 +22,12 @@ class Api::WordController < ApplicationController
   end
 
   def show
-    @word = Word.find_by(id: params[:id])
+    @word = Word.find_by(name: params[:name])
+    if @word
+      render :show
+    else
+      render json: @photo.errors.full_messages, status: 422
+    end
   end
 
   private
