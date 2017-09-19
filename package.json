@@ -1,5 +1,27 @@
 {
   "name": "scrabble_cheat",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "description": "This is a coding challenge. The goal is to test for coding ability, general Rails knowledge, and provide insight into your coding practices.",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrDSGC/scrabble_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrDSGC/scrabble_test/issues"
+  },
+  "homepage": "https://github.com/MrDSGC/scrabble_test#readme"
 }
